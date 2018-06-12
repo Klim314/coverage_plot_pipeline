@@ -1,0 +1,24 @@
+# Mapping between sample_ids and conditions
+cond_map:
+  Sc_157: "control"
+  Sc_163: "control"
+  Sc_821: "control"
+  Sc_540: "hetero"
+  Sc_545: "hetero"
+  Sc_825: "hetero"
+  Sc_166: homo
+  Sc_858: homo
+  Sc_882: homo
+  KQ_23: kd-control
+  KQ_24: kd-control
+  KQ_25: kd-control
+  KQ_26: kd-buggy
+  KQ_27: kd-aso
+  KQ_28: kd-aso
+
+# Selection of genes to generate data for
+target_genes: [
+  "ENSMUSG00000030795",  # FUS
+]
+# Path to gene coord data annotations
+gene_coords: "/mnt/d/work/sc/data/transcript_coords/ensembl_mmus_gene_coords_2018-02-19.tsv"
