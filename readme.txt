@@ -1,4 +1,7 @@
 generate_coverage
+Generates coverage plots for a given set of genes and conditions from a set of bamfiles
+Input required:
+	bamfiles in the form of <sample_id>
 
 Data preparation:
 	Configuration of the run:
@@ -9,11 +12,6 @@ Data preparation:
 			gene_coords: Path to gene_coord annotations
 
 
-
-Generates coverage plots given:
-	A set of bams
-	Condition annotations for each bam (Table containing sample name, file_name, condition)
-	A set of genes and the selected transcripts
 
 Notes:
 	Bedtools needed, thus run from within a bash shell
